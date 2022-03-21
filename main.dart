@@ -68,8 +68,7 @@ class _CalculadoraWidgetState extends State<CalculadoraWidget>{
          child:Text("ADD"),
          onPressed:(){
            print(counter);
-           ++counter;
-           
+           setState((){counter++;});
          }
        )
         
